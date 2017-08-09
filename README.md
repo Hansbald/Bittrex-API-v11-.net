@@ -4,9 +4,9 @@ A full implementation of the Bittrex API v1.1 (and the GetTicks() method) in C# 
 This libary is licensed under MIT and uses the json.NET libary for deserialization.
 
 **Init:**
-'''C#
+```C#
 BittrexAPI myAPI = new BittrexAPI("API_KEY", "API_SECRET");
-'''
+```
    This initializes the Wrapper, every function returns an object with every return-paramter:
    
 
