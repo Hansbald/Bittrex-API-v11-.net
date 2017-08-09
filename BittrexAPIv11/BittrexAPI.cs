@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace bittrexAPIv11
 {
-    class BittrexAPI
+    public class BittrexAPI
     {
         private string _API_KEY;
         private string _API_SECRET;

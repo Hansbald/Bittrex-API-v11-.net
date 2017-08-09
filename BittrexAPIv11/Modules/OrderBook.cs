@@ -26,7 +26,7 @@ namespace bittrexAPIv11
         public string message { get; set; }
         public OrderBook result { get; set; }
     }
-    enum OrderBookType
+    public enum OrderBookType
     {
         Sell,
         Buy,
